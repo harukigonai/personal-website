@@ -68,9 +68,7 @@ code {
 
 #navbarLinks {
   display: flex;
-  justify-content: space-between;
-
-  width: 304px;
+  gap: 50px;
 }
 
 #navbarLinks a {
@@ -81,6 +79,7 @@ code {
   color: #000 !important;
 
   text-decoration: none;
+  white-space: nowrap;
 }
 
 #contentWrapper {
@@ -100,6 +99,13 @@ code {
 @media (max-width: 747px) {
   #myPhoto {
     display: none !important;
+  }
+}
+
+@media (max-width: 571px) {
+  #navbarLinks {
+    padding-left: 57px;
+    padding-right: 30px;
   }
 }
 
