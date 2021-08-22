@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ContactMe from "./pages/ContactMe";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Dropdown from "./components/Dropdown";
+
 import "./App.css";
 import "./fonts.css";
 
@@ -16,12 +18,13 @@ function App() {
           <Link className="navbarLink" to="/">
             Home
           </Link>
-          <Link className="navbarLink" to="/">
+          <Link className="navbarLink" to="/projects">
             Projects
           </Link>
-          <Link className="navbarLink" to="/">
+          <Link className="navbarLink" to="/contact-me">
             Contact Me
           </Link>
+          <Dropdown />
         </div>
       </div>
 

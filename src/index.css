@@ -1,4 +1,6 @@
 #root {
+  min-width: 344px;
+
   width: 100%;
   height: 100%;
 }
@@ -64,6 +66,8 @@ code {
 
   text-decoration: none;
   letter-spacing: 1.5px;
+
+  height: 24px;
 }
 
 #navbarLinks {
@@ -71,7 +75,7 @@ code {
   gap: 50px;
 }
 
-#navbarLinks a {
+.navbarLink {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -83,29 +87,29 @@ code {
 }
 
 #contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 55px;
+
   max-width: 916px;
   margin: 100px auto 0 auto;
 
   position: relative;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 @media (max-width: 986px) {
   #contentWrapper {
-    margin: 100px 30px 0 30px;
+    margin-top: 100px;
   }
 }
 
 @media (max-width: 747px) {
+  #contentWrapper {
+    max-width: fit-content;
+  }
   #myPhoto {
     display: none !important;
-  }
-}
-
-@media (max-width: 571px) {
-  #navbarLinks {
-    padding-left: 57px;
-    padding-right: 30px;
   }
 }
 
@@ -146,4 +150,68 @@ code {
   display: block;
 
   box-shadow: 0 4px 12px -4px rgb(0 0 0 / 10%);
+
+  margin-right: 55px;
+}
+
+#hamburgerContainer {
+  position: relative;
+  display: none;
+
+  width: 22px;
+  height: 24px;
+}
+
+@media (max-width: 566px) {
+  #hamburgerContainer {
+    display: block;
+  }
+
+  .navbarLink {
+    display: none !important;
+  }
+}
+
+#hamburger {
+  width: 100%;
+  height: 100%;
+
+  transition: 0.2s ease;
+
+  cursor: pointer;
+}
+
+.hamburgerActive {
+  transform: rotate(180deg);
+  transition: 0.2s ease;
+}
+
+#hamburgerMenu {
+  position: absolute;
+  right: -5px;
+
+  background-color: white;
+  box-shadow: 0 4px 12px -4px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  width: 150px;
+
+  padding: 5px 0;
+
+  opacity: 0;
+}
+
+.hamburgerMenuActive {
+  opacity: 1 !important;
+}
+
+.hamburgerLink {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+  height: 30px;
+}
+
+.hamburgerLink:hover {
+  background: #eee;
 }
