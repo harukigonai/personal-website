@@ -1,8 +1,11 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ContactMe from "./pages/ContactMe";
+import RelevantCoursework from "./pages/RelevantCoursework";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Dropdown from "./components/Dropdown";
+
+import Resume from "./resume_haruki_gonai.pdf";
 
 import "./App.css";
 import "./fonts.css";
@@ -21,6 +24,15 @@ function App() {
           <Link className="navbarLink" to="/projects">
             Projects
           </Link>
+          <Link className="navbarLink" to="/experience">
+            Experience
+          </Link>
+          <a className="navbarLink" href={Resume} target="_blank">
+            Resume
+          </a>
+          <Link className="navbarLink" to="/relevant-coursework">
+            Relevant Coursework
+          </Link>
           <Link className="navbarLink" to="/contact-me">
             Contact Me
           </Link>
@@ -36,7 +48,10 @@ function App() {
           <Route path="/projects">
             <Projects />
           </Route>
-          <Route path="/contactMe">
+          <Route path="/relevant-coursework">
+            <RelevantCoursework />
+          </Route>
+          <Route path="/contact-me">
             <ContactMe />
           </Route>
         </Switch>

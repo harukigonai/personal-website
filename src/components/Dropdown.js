@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Hamburger } from "../assets/svgs/hamburger.svg";
 
+import Resume from "../resume_haruki_gonai.pdf";
+
 export default function Dropdown() {
   const [active, setActive] = useState(false);
   const dropdownRef = useRef();
@@ -31,6 +33,15 @@ export default function Dropdown() {
         </Link>
         <Link className="hamburgerLink" to="/projects">
           Projects
+        </Link>
+        <Link className="hamburgerLink" to="/experience">
+          Experience
+        </Link>
+        <a className="hamburgerLink" href={Resume} target="_blank">
+          Resume
+        </a>
+        <Link className="hamburgerLink" to="/relevant-coursework">
+          Relevant Coursework
         </Link>
         <Link className="hamburgerLink" to="/contactMe">
           Contact Me
