@@ -43,7 +43,7 @@ export default function Dropdown() {
         <Link className="hamburgerLink" to="/relevant-coursework">
           Relevant Coursework
         </Link>
-        <Link className="hamburgerLink" to="/contactMe">
+        <Link className="hamburgerLink" to="/contact-me">
           Contact Me
         </Link>
       </div>

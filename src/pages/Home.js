@@ -14,8 +14,6 @@ export default function Home() {
         <h1 id="homeHeader">Haruki Gonai</h1>
         <h3 id="homeSubHeader">Software Engineer</h3>
         {homeCategory("Columbia University", "CS Major, Class of 2023")}
-        {homeCategory("Sonar Health", "Frontend Engineer")}
-        {homeCategory("Musician", "Double Bassist")}
       </div>
       <img id="myPhoto" src={process.env.PUBLIC_URL + "/me.JPG"}></img>
     </>
