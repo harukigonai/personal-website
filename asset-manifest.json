@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.1eb87da7.chunk.css",
-    "main.js": "/personal-website/static/js/main.c4508c99.chunk.js",
-    "main.js.map": "/personal-website/static/js/main.c4508c99.chunk.js.map",
+    "main.js": "/personal-website/static/js/main.f70e45ad.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.f70e45ad.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.c8cce02c.js",
     "runtime-main.js.map": "/personal-website/static/js/runtime-main.c8cce02c.js.map",
     "static/js/2.4396ff84.chunk.js": "/personal-website/static/js/2.4396ff84.chunk.js",
@@ -19,12 +19,13 @@
     "static/media/COMS_W4118_Operating_Systems_I_Fall_2022.800c0e87.pdf": "/personal-website/static/media/COMS_W4118_Operating_Systems_I_Fall_2022.800c0e87.pdf",
     "static/media/COMS_W4701_Artificial_Intelligence_Spring_2023.6971b16e.pdf": "/personal-website/static/media/COMS_W4701_Artificial_Intelligence_Spring_2023.6971b16e.pdf",
     "static/media/hamburger.d022a0f1.svg": "/personal-website/static/media/hamburger.d022a0f1.svg",
-    "static/media/resume_haruki_gonai.d0e17937.pdf": "/personal-website/static/media/resume_haruki_gonai.d0e17937.pdf"
+    "static/media/resume_haruki_gonai.d0e17937.pdf": "/personal-website/static/media/resume_haruki_gonai.d0e17937.pdf",
+    "static/media/tutoring_resume_haruki_gonai.7a2fb092.pdf": "/personal-website/static/media/tutoring_resume_haruki_gonai.7a2fb092.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.c8cce02c.js",
     "static/js/2.4396ff84.chunk.js",
     "static/css/main.1eb87da7.chunk.css",
-    "static/js/main.c4508c99.chunk.js"
+    "static/js/main.f70e45ad.chunk.js"
   ]
 }
