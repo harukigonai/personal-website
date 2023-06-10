@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.1eb87da7.chunk.css",
+    "main.js": "/personal-website/static/js/main.c4508c99.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.c4508c99.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.c8cce02c.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.c8cce02c.js.map",
+    "static/js/2.4396ff84.chunk.js": "/personal-website/static/js/2.4396ff84.chunk.js",
+    "static/js/2.4396ff84.chunk.js.map": "/personal-website/static/js/2.4396ff84.chunk.js.map",
+    "static/js/3.6b53cb9d.chunk.js": "/personal-website/static/js/3.6b53cb9d.chunk.js",
+    "static/js/3.6b53cb9d.chunk.js.map": "/personal-website/static/js/3.6b53cb9d.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/main.1eb87da7.chunk.css.map": "/personal-website/static/css/main.1eb87da7.chunk.css.map",
+    "static/js/2.4396ff84.chunk.js.LICENSE.txt": "/personal-website/static/js/2.4396ff84.chunk.js.LICENSE.txt",
+    "static/media/COMS_W3203_Discrete_Mathematics_Fall_2022.6610b96a.pdf": "/personal-website/static/media/COMS_W3203_Discrete_Mathematics_Fall_2022.6610b96a.pdf",
+    "static/media/COMS_W3251_Computational_Linear_Algebra_Fall_2021.c8c3aa09.pdf": "/personal-website/static/media/COMS_W3251_Computational_Linear_Algebra_Fall_2021.c8c3aa09.pdf",
+    "static/media/COMS_W3251_Computational_Linear_Algebra_Spring_2022.43552774.pdf": "/personal-website/static/media/COMS_W3251_Computational_Linear_Algebra_Spring_2022.43552774.pdf",
+    "static/media/COMS_W3251_Computational_Linear_Algebra_Spring_2023.34390702.pdf": "/personal-website/static/media/COMS_W3251_Computational_Linear_Algebra_Spring_2023.34390702.pdf",
+    "static/media/COMS_W4118_Operating_Systems_I_Fall_2022.800c0e87.pdf": "/personal-website/static/media/COMS_W4118_Operating_Systems_I_Fall_2022.800c0e87.pdf",
+    "static/media/COMS_W4701_Artificial_Intelligence_Spring_2023.6971b16e.pdf": "/personal-website/static/media/COMS_W4701_Artificial_Intelligence_Spring_2023.6971b16e.pdf",
+    "static/media/hamburger.d022a0f1.svg": "/personal-website/static/media/hamburger.d022a0f1.svg",
+    "static/media/resume_haruki_gonai.d0e17937.pdf": "/personal-website/static/media/resume_haruki_gonai.d0e17937.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8cce02c.js",
+    "static/js/2.4396ff84.chunk.js",
+    "static/css/main.1eb87da7.chunk.css",
+    "static/js/main.c4508c99.chunk.js"
+  ]
+}
