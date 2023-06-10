@@ -3,14 +3,7 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Hamburger } from "../assets/svgs/hamburger.svg";
 
 import Resume from "../resume_haruki_gonai.pdf";
-
-import course_eval_1 from "../course_evals/COMS_W3203_Discrete_Mathematics_Fall_2022.pdf";
-import course_eval_2 from "../course_evals/COMS_W3251_Computational_Linear_Algebra_Fall_2021.pdf";
-import course_eval_3 from "../course_evals/COMS_W3251_Computational_Linear_Algebra_Spring_2022.pdf";
-import course_eval_4 from "../course_evals/COMS_W3251_Computational_Linear_Algebra_Spring_2023.pdf";
-import course_eval_5 from "../course_evals/COMS_W4118_Operating_Systems_I_Fall_2022.pdf";
-import course_eval_6 from "../course_evals/COMS_W4701_Artificial_Intelligence_Spring_2023.pdf";
-
+import TutoringResume from "../tutoring_resume_haruki_gonai.pdf";
 
 export default function Dropdown() {
   const [active, setActive] = useState(false);
@@ -50,6 +43,9 @@ export default function Dropdown() {
         </Link>
         <a className="hamburgerLink" href={Resume} target="_blank">
           Resume
+        </a>
+        <a className="hamburgerLink" href={TutoringResume} target="_blank">
+          Tutoring Resume
         </a>
         <Link className="hamburgerLink" to="/contact-me">
           Contact Me
