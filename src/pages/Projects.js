@@ -13,7 +13,8 @@ export default function Projects() {
   );
   return (
     <div id="projectsContent">
-      <h1 id="projectsHeader">Projects</h1>
+      Under Construction
+      {/* <h1 id="projectsHeader">Projects</h1>
       <div id="projectsWrapper">
         {project(<></>, "Filler", "e")}
         {project(<></>, "Dodgeball", "e")}
@@ -23,7 +24,7 @@ export default function Projects() {
         {project(<></>, "Filler", "e")}
         {project(<></>, "Filler", "e")}
         {project(<></>, "Filler", "e")}
-      </div>
+      </div> */}
     </div>
   );
 }
